@@ -1,12 +1,13 @@
 {
   "manifest_version": 2,
 
-  "name": "Basic Chrome Extension",
-  "description": "This extension demonstrates a browser action with kittens.",
-  "version": "1.0",
+  "name": "PinterestFeed",
+  "description": "A Chrome Extension that will show your latest Pinterest images.",
+  "version": "0.1",
 
   "permissions": [
-    "https://secure.flickr.com/"
+    "https://secure.flickr.com/",
+    "*://pinterest/*"
   ],
   "browser_action": {
     "default_icon": "icon.png",

@@ -2,15 +2,20 @@
   "manifest_version": 2,
 
   "name": "PinterestFeed",
-  "description": "A Chrome Extension that will show your latest Pinterest images.",
-  "version": "0.1",
+  "description": "A Chrome Extension that will show your latest Pinterest images.  Provides a quick way to see the latest Pins that are appearing in your feed.",
+  "version": "0.0.3",
 
   "permissions": [
-    "https://secure.flickr.com/",
     "*://pinterest/*"
   ],
+  
   "browser_action": {
-    "default_icon": "icon.png",
+    
+    "icon": { "16": "pinterest16.png",
+           "48": "pinterest48.png",
+          "128": "pinterest128.png" },
+    "default_icon": "pinterest128.png",
     "default_popup": "popup.html"
   }
+  
 }

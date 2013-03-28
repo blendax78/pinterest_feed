@@ -1,11 +1,11 @@
 <!doctype html>
 <html>
   <head>
-    <title>Getting Started Extension's Popup</title>
+    <title>PinterestFeed</title>
     <style>
       body {
         min-width: 330px;
-        height: 480px;
+        height: 430px;
         overflow-x: hidden;
       }
       
@@ -15,27 +15,11 @@
       }
     </style>
 
-    <!--
-      - JavaScript and HTML must be in separate files: see our Content Security
-      - Policy documentation[1] for details and explanation.
-      -
-      - [1]: http://developer.chrome.com/extensions/contentSecurityPolicy.html
-     -->
+    <script src="jquery.min.js"></script>
     <script src="popup.js"></script>
   </head>
   <body>
-  <iframe id="pinterestIframe" frameborder="0" seamless="seamless" src="http://m.pinterest.com"></iframe>
-  
-		<script type="text/javascript"><!--
-			google_ad_client = "ca-pub-9705616175022738";
-			/* PinterestFeed App */
-			google_ad_slot = "9965267910";
-			google_ad_width = 320;
-			google_ad_height = 60;
-			//-->
-		</script>
-		<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
-  
+  <iframe id="pinterestIframe" frameborder="0" seamless="seamless" src="loading_gif2.gif"></iframe>
   </body>
 </html>
 

@@ -6,8 +6,10 @@
   "version": "0.0.4",
 
   "permissions": [
-    "*://pinterest/*"
+    "*://*/*",
+    "tabs"
   ],
+
   
   "browser_action": {
     

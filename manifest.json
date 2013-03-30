@@ -1,24 +1,17 @@
 {
-  "manifest_version": 2,
-
-  "name": "PinterestFeed",
-  "description": "A Chrome Extension that provides a quick way to see the latest Pins that are appearing in your Pinterest feed.",
-  "version": "0.0.4",
-
-  "permissions": [
-    "*://*/*",
-    "tabs"
-  ],
-
-  
-  "browser_action": {
-    
-    "icon": { "16": "pinterest16.png",
-           "48": "pinterest48.png",
-          "128": "pinterest128.png" },
-    "default_icon": "pinterest128.png",
-    "default_popup": "popup.html",
-    "default_title": "PinterestFeed"
-  }
-  
+  "manifest_version":2,
+   "browser_action": {
+      "default_icon": "pinterest128.png",
+      "default_popup": "popup.html",
+      "default_title": "PinterestFeed"
+   },
+   "description": "Provides a quick way to see the latest Pins in your Pinterest feed.",
+   "icons": {
+      "128": "pinterest128.png",
+      "16": "pinterest16.png",
+      "48": "pinterest48.png"
+   },
+   "name": "PinterestFeed",
+   "permissions": [  "*://*/*" ],
+   "version": "0.3.4"
 }
